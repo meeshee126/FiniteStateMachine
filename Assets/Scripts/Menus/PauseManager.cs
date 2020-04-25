@@ -2,25 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Michael Schmidt
 public class PauseManager : MonoBehaviour
 {
     [SerializeField]
     GameObject uiPause;  
 
-
     void Update()
     {
-   
         //toggle pause menu
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             PauseMenu();
         }
-
     }
-
-   
 
     /// <summary>
     /// Toggleling Pause menu
@@ -56,8 +50,6 @@ public class PauseManager : MonoBehaviour
         }
     }
 
-
-
     /// <summary>
     /// return to Pausemenu button
     /// </summary>
@@ -73,5 +65,4 @@ public class PauseManager : MonoBehaviour
     {
         Application.Quit();
     }
-
 }

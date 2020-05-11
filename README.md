@@ -4,7 +4,7 @@
 
 ![BehavioralStatePattern](Images/BehavioralStatePattern.png)
 
-## An Example how it should work
+## An example how the Bandit should work
 
 ![Example](Images/Example.gif)
 
